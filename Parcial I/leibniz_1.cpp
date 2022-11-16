@@ -7,7 +7,7 @@ int main()
 {
   int k, n; // Se declaran las variables k y n como enteros ya que servirán como contadores para la sumatoria.
   float sum; // Se declara la variable suma como numero real o float.
-  sum=0; // Se da el valor inicial de cero a la sumatoria.
+  sum=0.0; // Se da el valor inicial de cero a la sumatoria.
   cout << "Ingrese el número de términos ( límite superior de la sumatoria ) "; // Se pide ingresar el límite superior de la sumatoria, cuanto más grande sea el número más preciso será el valor esperado.
   cin>>n; //Guarda el valor ingresado
   for (k=0;k<=n;k++) //El índice k empieza en cero y mientras k sea menor o igual que n, k avanzará de uno en uno.
